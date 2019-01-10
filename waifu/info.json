@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "*Void#0001",
+    "SHORT" : "Picks a random waifu for you.",
+    "DESCRIPTION" : "Picks a random waifu for you",
+    "DISABLED" : false,
+    "NAME" : "waifu",
+    "INSTALL_MSG" : "\nThank you for insalling my cog.\n\nIf you have any questions join my support server below.\n\nSupport: <https://discord.gg/vx4W2SA>",
+    "TAGS" : ["anime", "random", "fun"]
+}
