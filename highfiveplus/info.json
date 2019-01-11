@@ -4,7 +4,7 @@
     "SHORT" : "Highfive someone with gifs",
     "DESCRIPTION" : "Highfive cog from Q-Cogs but with more gifs.",
     "NAME" : "highfive+",
-    "INSTALL_MSG" : "\n`[p]highfive`\n\nFull credit goes to Quintenvw for this cog.\n\nI just added more gifs.",
+    "INSTALL_MSG" : "\n`[p]highfive`\n\nFull credit goes to Quintenvw for creating this cog.\n\nI just added more gifs.",
     "TAGS" : ["anime", "random", "fun"]
     "REQUIREMENTS" : [],
 }
