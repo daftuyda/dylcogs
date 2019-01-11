@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class poke:
+class pokeplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -24,5 +24,5 @@ class poke:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = poke(bot)
+    n = pokeplus(bot)
     bot.add_cog(n)
