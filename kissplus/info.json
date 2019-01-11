@@ -4,7 +4,7 @@
     "SHORT" : "Kiss someone with gifs",
     "DESCRIPTION" : "Kiss cog from GrandeCogs but with more gifs.",
     "NAME" : "kissplus",
-    "INSTALL_MSG" : "\n`[p]`\n\nFull credit goes to HarukiGrande for creating this cog.\n\nI just added more gifs.",
+    "INSTALL_MSG" : "\n`[p]kiss`\n\nFull credit goes to HarukiGrande for creating this cog.\n\nI just added more gifs.",
     "TAGS" : ["anime", "random", "fun", "kiss"],
     "REQUIREMENTS" : [],
 }
