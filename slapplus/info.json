@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "*Void",
+    "INSTALL_MSG" : "It's doing stuff",
+    "SHORT" : "Slap someone with gifs",
+    "DESCRIPTION" : "Slap cog from Q-cogs but with more gifs.",
+    "NAME" : "slapplus",
+    "INSTALL_MSG" : "\n`[p]slap`\n\nFull credit goes to Quintenvw for creating this cog.\n\nI just added more gifs.",
+    "TAGS" : ["anime", "random", "fun", "slap"],
+    "REQUIREMENTS" : [],
+}
