@@ -1,4 +1,4 @@
-# dylcogs
+# Dylcogs
 Just here making anime commands for [Red DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)
 
 # Installation
