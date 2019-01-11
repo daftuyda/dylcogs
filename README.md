@@ -6,9 +6,9 @@ Just here making anime commands for red bot
 
 ```[p]cog install dylcogs [cog]```
 
-#Contact
+# Contact
 Message me on discord ```*Void#0001``` about any issues or bugs.
 
-#Credit
+# Credit
 All credits go to [HarukiGrande](https://github.com/HarukiGrande) for providing gif cogs for me to base my work off.
 Credits to both [HarukiGrande](https://github.com/HarukiGrande) again and [Quintenvw](https://github.com/Quintenvw) on their emote cogs that I expanded on.
