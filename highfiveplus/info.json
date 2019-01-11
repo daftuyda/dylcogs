@@ -3,7 +3,7 @@
     "INSTALL_MSG" : "It's doing stuff",
     "SHORT" : "Highfive someone with gifs",
     "DESCRIPTION" : "Highfive cog from Q-Cogs but with more gifs.",
-    "NAME" : "highfive+",
+    "NAME" : "highfiveplus",
     "INSTALL_MSG" : "\n`[p]highfive`\n\nFull credit goes to Quintenvw for creating this cog.\n\nI just added more gifs.",
     "TAGS" : ["anime", "random", "fun"]
     "REQUIREMENTS" : [],
