@@ -3,7 +3,7 @@
     "INSTALL_MSG" : "It's doing stuff",
     "SHORT" : "Punch thy enemy.",
     "DESCRIPTION" : "Will punch anyone, anywhere, anytime.",
-    "NAME" : "smug",
+    "NAME" : "punch",
     "INSTALL_MSG" : "\n`[p]punch`\n\nIf you have any questions join my support server below.\n\nSupport: <https://discord.gg/vx4W2SA>",
     "TAGS" : ["anime", "random", "fun"]
 }
