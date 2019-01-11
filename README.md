@@ -1,5 +1,5 @@
 # dylcogs
-Just here making anime commands for red bot
+Just here making anime commands for [Red DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)
 
 # Installation
 ```[p]cog repo add dylcogs https://github.com/AmIVoid/dylcogs```
