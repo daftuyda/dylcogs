@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class highfive:
+class highfiveplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -24,5 +24,5 @@ class highfive:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = highfive(bot)
+    n = highfiveplus(bot)
     bot.add_cog(n)
