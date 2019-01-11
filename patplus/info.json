@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "*Void",
+    "INSTALL_MSG" : "It's doing stuff",
+    "SHORT" : "Pat someone with gifs",
+    "DESCRIPTION" : "Pat cog from GrandeCogs but with more gifs.",
+    "NAME" : "patplus",
+    "INSTALL_MSG" : "\n`[p]pat`\n\nFull credit goes to HarukiGrande for creating this cog.\n\nI just added more gifs.",
+    "TAGS" : ["anime", "random", "fun", "pat"],
+    "REQUIREMENTS" : [],
+}
