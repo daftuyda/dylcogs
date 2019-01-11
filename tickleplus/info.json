@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "*Void",
+    "INSTALL_MSG" : "It's doing stuff",
+    "SHORT" : "Tickle someone with gifs",
+    "DESCRIPTION" : "Tickle cog from Q-Cogs but with more gifs.",
+    "NAME" : "tickleplus",
+    "INSTALL_MSG" : "\n`[p]tickle`\n\nFull credit goes to Quintenvw for creating this cog.\n\nI just added more gifs.",
+    "TAGS" : ["anime", "random", "fun", "tickle"],
+    "REQUIREMENTS" : [],
+}
