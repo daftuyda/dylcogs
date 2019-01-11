@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class Slap:
+class Slapplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -24,5 +24,5 @@ class Slap:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = Slap(bot)
+    n = Slapplus(bot)
     bot.add_cog(n)
