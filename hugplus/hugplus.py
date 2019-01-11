@@ -3,7 +3,7 @@ from discord.ext import commands
 import random
 import discord
 
-class Hug:
+class Hugplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -25,5 +25,5 @@ class Hug:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = Hug(bot)
+    n = Hugplus(bot)
     bot.add_cog(n)
