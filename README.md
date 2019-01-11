@@ -3,6 +3,7 @@ Just here making anime commands for red bot
 
 # Installation
 ```[p]cog repo add dylcogs https://github.com/AmIVoid/dylcogs```
+
 ```[p]cog install dylcogs [cog]```
 
 #Contact
