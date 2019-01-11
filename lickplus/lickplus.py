@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class lick:
+class lickplus:
 	def __init__(self, bot):
 		self.bot = bot
 
@@ -19,5 +19,5 @@ class lick:
 		await self.bot.say(embed=embed)
 
 def setup(bot):
-	n = lick(bot)
+	n = lickplus(bot)
 	bot.add_cog(n)
