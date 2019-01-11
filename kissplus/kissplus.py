@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class Kiss:
+class Kissplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -24,5 +24,5 @@ class Kiss:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = Kiss(bot)
+    n = Kissplus(bot)
     bot.add_cog(n)
