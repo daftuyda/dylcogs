@@ -2,7 +2,7 @@ from discord.ext import commands
 import random
 import discord
 
-class Pat:
+class Patplus:
     def __init__(self, bot):
         self.bot = bot
 
@@ -24,5 +24,5 @@ class Pat:
         await self.bot.say(embed=embed)
 
 def setup(bot):
-    n = Pat(bot)
+    n = Patplus(bot)
     bot.add_cog(n)
