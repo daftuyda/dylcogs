@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "*Void",
+    "INSTALL_MSG" : "It's doing stuff",
+    "SHORT" : "Fistbump someone with gifs",
+    "DESCRIPTION" : "Fistbump cog from Q-Cogs but with more gifs.",
+    "NAME" : "fistbumpplus",
+    "INSTALL_MSG" : "\n`[p]fistbump`\n\nFull credit goes to Quintenvw for creating this cog.\n\nI just added more gifs.",
+    "TAGS" : ["anime", "random", "fun", "fistbump"],
+    "REQUIREMENTS" : [],
+}
