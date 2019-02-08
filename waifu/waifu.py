@@ -8,18 +8,8 @@ import json
 class waifu:
 	def __init__(self, client):
 		self.client = client
-
-	def check_file():
-	f = 'data/waifu/waifu.json'
-	if not dataIO.is_valid_json(f):
-		dataIO.save_json(f, {})
-		print('Creating default waifu.json...')
-
-	def check_file():
-	f = 'data/waifu/prefix.json'
-	if not dataIO.is_valid_json(f):
-		dataIO.save_json(f, {})
-		print('Creating default prefix.json...')
+		self.JSON = 'data/waifu/waifu.json'
+		self.JSON = 'data/waifu/prefix.json'
 
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
