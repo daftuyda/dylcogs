@@ -14,16 +14,21 @@ class waifu:
 		print('Creating data/waifu folder...')
 		os.makedirs('data/waifu')
 
-
 	def check_file():
-	f = 'data/waifu/wafius.json'
+	f = 'data/waifu/wafiu.json'
 	if not dataIO.is_valid_json(f):
 		dataIO.save_json(f, {})
 		print('Creating default waifu.json...')
 
+	def check_file():
+	f = 'data/waifu/prefix.json'
+	if not dataIO.is_valid_json(f):
+		dataIO.save_json(f, {})
+		print('Creating default prefix.json...')
+
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
-		waifus=json.loads(open("data/waifu/waifus.json").read())
+		waifus=json.loads(open("data/waifu/waifu.json").read())
 		waifus2cuck=waifus
 		author = ctx.message.author.mention
 		channel = ctx.message.channel
