@@ -9,13 +9,6 @@ class waifu:
 	def __init__(self, client):
 		self.client = client
 
-	def check_folder():
-	if os.path.exists('data/waifu')
-		break
-	if not os.path.exists('data/waifu'):
-		print('Creating data/waifu folder...')
-		os.makedirs('data/waifu')
-
 	def check_file():
 	f = 'data/waifu/wafiu.json'
 	if not dataIO.is_valid_json(f):
