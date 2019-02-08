@@ -18,8 +18,8 @@ class waifu:
 		channel = ctx.message.channel
 		user = ctx.message.author
 		self.prefix = "data/waifu/prefix.json"
-		self.imagenius = dataIO.load_json(self.prefix)
-		prefix = self.imagenius["MAINPREFIX"]
+		self.mainprefix = dataIO.load_json(self.prefix)
+		prefix = self.mainprefix["MAINPREFIX"]
 		waifu=waifus2cuck[random.randint(0, len(waifus2cuck)-1)]
 			
 		waifuName = waifu['name']
