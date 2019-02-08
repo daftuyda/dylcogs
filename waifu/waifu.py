@@ -9,7 +9,7 @@ class waifu:
 	def __init__(self, client, file = None):
 		self.client = client
 		if file == None:
-            file = "data/waifu/waifus.json"
+            file = ("data/waifu/waifus.json")
         if os.path.exists(file):
             f = open(file,'r')
             filedata = f.read()
