@@ -5,14 +5,36 @@ import random
 import time
 import json
 
-waifus=json.loads(open("data/waifu/waifus.json").read())
-
 class waifu:
-	def __init__(self, client):
-		self.client = client 
+	def __init__(self, client, file = None):
+		self.client = client
+		if file == None:
+            file = "data/waifu/waifus.json"
+        if os.path.exists(file):
+            f = open(file,'r')
+            filedata = f.read()
+            f.close()
+
+        	self.waifuc = json.loads(filedata)
+        else:
+            # File doesn't exist - create a placeholder
+            self.waifuc = {}
+        self.bot.loop.create_task(self.checkDead())
+        self.bot.loop.create_task(self.checkUserTimeout())
+
+    def cleanJson(self, json):
+        json = html.unescape(json)
+        # Clean out html formatting
+        json = json.replace('_','[blank]')
+        json = json.replace('<br>','\n')
+        json = json.replace('<br/>','\n')
+        json = json.replace('<i>', '*')
+        json = json.replace('</i>', '*')
+        return json
 		
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
+		waifus=json.loads(open("data/waifu/waifus.json").read())
 		waifus2cuck=waifus
 		author = ctx.message.author.mention
 		channel = ctx.message.channel
