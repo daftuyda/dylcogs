@@ -24,8 +24,7 @@ class waifu:
 		animeName = waifu['series']['name']
 		waifuImg = waifu['display_picture']
 			
-		await self.client.say("%s, your waifu is **%s** (%s)" % (author, waifuName, animeName))
-		await self.client.send_file(channel, waifuImg)
+		await self.client.send_file(channel, waifuImg, content="%s, your waifu is **%s** (%s)" % (author, waifuName, animeName))
 
 def setup(client):
 	client.add_cog(waifu(client))
