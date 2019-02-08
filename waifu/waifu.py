@@ -1,31 +1,41 @@
 import discord
 from discord.ext import commands
 import random
-import time
 import json
 
 waifus=json.loads(open("data/waifu/waifus.json").read())
 
 class waifu:
-	def __init__(self, client):
-		self.client = client
-		if file == None:
-            file = "data/waifu/waifus.json"
+	def __init__(self, bot):
+		self.bot = bot
 		
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
-	
 		waifus2cuck=waifus
 		author = ctx.message.author.mention
-		channel = ctx.message.channel
-		
+		user = ctx.message.author
 		waifu=waifus2cuck[random.randint(0, len(waifus2cuck)-1)]
 			
 		waifuName = waifu['name']
 		animeName = waifu['series']['name']
 		waifuImg = waifu['display_picture']
-			
-		await self.client.send_file(channel, waifuImg, content="%s, your waifu is **%s** (%s)" % (author, waifuName, animeName))
+		waifuHeight = waifu['height']
+		waifuHip = waifu['hip']
+		waifuBust = waifu['bust']
+		waifuLikes = waifu['likes']
+		waifuTrash = waifu['trash']
+
+		waifuDesc = "{0}, your waifu is **{1}**"
+
+		embed = discord.Embed(description=waifuDesc.format(author, waifuName),colour=user.colour)
+		embed.set_image(url=waifuImg)
+		embed.add_field(name = "From:", value = "{0}".format(animeName))
+		#Remove the '#' to enable
+		#embed.add_field(name = "BWH", value = "{0},{1},{2}".format(waifuBust, waifuHip, waifuHeight))
+		#embed.add_field(name = "Likes", value = "{0}".format(waifuLikes))
+		#embed.add_field(name = "Dislikes", value = "{0}".format(waifuTrash)
+		
+		await self.bot.say(embed=embed)
 
 def setup(client):
 	client.add_cog(waifu(client))
