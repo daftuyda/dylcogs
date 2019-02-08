@@ -10,7 +10,7 @@ class waifu:
 		self.client = client
 
 	def check_file():
-	f = 'data/waifu/wafiu.json'
+	f = 'data/waifu/waifu.json'
 	if not dataIO.is_valid_json(f):
 		dataIO.save_json(f, {})
 		print('Creating default waifu.json...')
