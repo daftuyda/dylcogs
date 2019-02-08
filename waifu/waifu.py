@@ -4,12 +4,13 @@ import random
 import time
 import json
 
-
 waifus=json.loads(open("data/waifu/waifus.json").read())
 
 class waifu:
 	def __init__(self, client):
 		self.client = client
+		if file == None:
+            file = "data/waifu/waifus.json"
 		
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
