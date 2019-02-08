@@ -4,6 +4,6 @@
     "SHORT" : "Picks a random waifu for you.",
     "DESCRIPTION" : "Picks a random waifu for you",
     "NAME" : "waifu",
-    "INSTALL_MSG" : "\n`[p]waifu`\n\nIf you have any questions join my support server below.\n\nSupport: <https://discord.gg/vx4W2SA>",
+    "INSTALL_MSG" : "\n`[p]waifu`\n\nIf you have any questions join my support server below.\n\nSupport: <https://discord.gg/vx4W2SA>\n\I'm too lazy to generate the actual files so you can find them here <https://github.com/AmIVoid/dylcogs/tree/master/waifu/data> and change them yourself, your smart enough ;) -*Void",
     "TAGS" : ["anime", "random", "fun"]
 }
