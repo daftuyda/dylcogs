@@ -10,6 +10,8 @@ class waifu:
 		self.client = client
 
 	def check_folder():
+	if os.path.exists('data/waifu')
+		break
 	if not os.path.exists('data/waifu'):
 		print('Creating data/waifu folder...')
 		os.makedirs('data/waifu')
