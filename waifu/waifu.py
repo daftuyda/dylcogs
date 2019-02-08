@@ -6,10 +6,20 @@ import time
 import json
 
 class waifu:
-	def __init__(self, client, file = None):
+	def __init__(self, client):
 		self.client = client
-		if file == None:
-            file = "data/waifu/waifus.json"
+
+	def check_folder():
+	if not os.path.exists('data/waifu'):
+		print('Creating data/waifu folder...')
+		os.makedirs('data/waifu')
+
+
+	def check_file():
+	f = 'data/waifu/wafius.json'
+	if not dataIO.is_valid_json(f):
+		dataIO.save_json(f, {})
+		print('Creating default waifu.json...')
 
 	@commands.command(pass_context=True)
 	async def waifu(self, ctx):
